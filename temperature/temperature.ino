@@ -1,6 +1,6 @@
 #include "DHT.h"
  
-#define DHTPIN A1 // pino que estamos conectado
+#define DHTPIN A1 // entrada analógica A1
 #define DHTTYPE DHT11 // DHT 11
 
 DHT dht(DHTPIN, DHTTYPE);
